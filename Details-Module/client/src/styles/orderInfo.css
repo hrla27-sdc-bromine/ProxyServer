@@ -1,0 +1,32 @@
+.container {
+  display: block;
+  padding: 0 15px;
+  padding-top: 40px;
+  box-sizing: border-box;
+  animation: d .25s forwards;
+  width: 100%;
+  float: none;
+  z-index: 15;
+  background-color: #fff;
+}
+
+.background {
+  background-color: #fff;
+  padding: 0;
+}
+
+.infoBar {
+}
+
+@media (min-width: 960px) {
+  .container {
+    width: 33.33333%;
+    padding-top: 0;
+    z-index: 0;
+    background-color: transparent;
+  }
+  .background {
+    padding: 20px;
+  }
+}
+

@@ -1,0 +1,63 @@
+{
+  "name": "nassau-sdc-details-module",
+  "version": "1.0.0",
+  "description": "Nassau-SDC Details Module",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "postgreStart": "nodemon ./serverPostgres/index.js",
+    "prod": "node ./serverPostgres/index.js",
+    "mongoStart": "nodemon ./serverMongo/index.js",
+    "build": "webpack -d --watch",
+    "seed": "node ./db/seed.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShlomoLove/Nassau-SDC-Details-Module.git"
+  },
+  "keywords": [
+    "product",
+    "details",
+    "module"
+  ],
+  "author": "Scott Nassau",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShlomoLove/Nassau-SDC-Details-Module/issues"
+  },
+  "homepage": "https://github.com/ShlomoLove/Nassau-SDC-Details-Module#readme",
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "css-loader": "^2.1.0",
+    "faker": "^4.1.0",
+    "fs": "0.0.1-security",
+    "mongoose": "^5.4.10",
+    "jest": "^24.5.0",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.18.9",
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1",
+    "react-skylight": "^0.5.1",
+    "sequelize": "^4.42.1",
+    "style-loader": "^0.23.1",
+    "supertest": "^3.4.2",
+    "url-loader": "^1.1.2",
+    "webpack": "^4.29.2",
+    "webpack-cli": "^3.2.3"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bluebird": "^3.5.3",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "dotenv": "^6.2.0",
+    "dotenv-expand": "^4.2.0",
+    "express": "^4.16.4",
+    "newrelic": "^5.6.0",
+    "node-cmd": "^3.0.0",
+    "pg": "^7.8.1"
+  }
+}

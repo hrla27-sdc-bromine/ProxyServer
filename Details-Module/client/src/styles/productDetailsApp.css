@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'AdihausDIN';
+  src: url('./fonts/AdihausDIN-Regular.woff2') format('woff2');
+}
+
+.container {
+  display: block;
+  font-family: AdihausDIN;
+  background-color: #fff;
+  position: relative;
+  left: 0;
+  top: 0;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+button:focus {
+  outline: 0;
+}
