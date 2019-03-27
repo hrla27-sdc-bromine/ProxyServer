@@ -1,5 +1,8 @@
 # Abibas System Design Capstone
 
+# <img src="https://github.com/oui-qln/Nav-Proxy/blob/master/ouiqln.png" align="left" width="40" height="40"> 
+<br/>
+
 The goal of the Abibas System Design Capstone is to scale legacy code and optimize query times by comparing a relational and non-relational database. In the process of optimizing data, a team of engineers compared the cost benefit analysis of horizontal and vertical scaling. 
 
 ## Tech Stack
